@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="https://kit.fontawesome.com/c64fed3c59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="bg-slate-500 text-white">
+            <div class="container mx-auto flex justify-between items-center p-5 h-20">
+                <div class="text-3xl font-bold text-yellow-500 cursor-pointer hover:text-white transition-all">Example
+                </div>
+                <input type="checkbox" name="menu" id="menu" class="hidden">
+                <label id="menu-btn" for="menu" class="cursor-pointer text-2xl md:hidden"><i
+                        class="fa-solid fa-bars"></i></label>
+                <nav id="nav"
+                    class="list-none text-xl fixed top-20 -left-full bg-slate-500 py-5 w-full text-center md:static flex flex-col gap-5 md:flex-row md:justify-end md:space-x-5">
+                    <li class="hover:text-red-500 transition-all"><a href="#">Home</a></li>
+                    <li class="hover:text-red-500 transition-all"><a href="#">Products</a></li>
+                    <li class="hover:text-red-500 transition-all"><a href="#">Dashboard</a></li>
+                    <li class="hover:text-red-500 transition-all"><a href="#">About</a></li>
+                    <li class="hover:text-red-500 transition-all"><a href="#">Contact</a></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

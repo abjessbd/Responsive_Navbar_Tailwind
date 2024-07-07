@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav {
+    transition: all .5s ease;
+}
+
+#menu:checked~#nav {
+    left: 0;
+}
+
+#menu:checked~#menu-btn i::before {
+    content: "\f00d";
+}
